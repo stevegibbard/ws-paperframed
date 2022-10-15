@@ -5,10 +5,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const PhotographyPage = () => (
-  <Layout>
-    <h1>Photography</h1>
+  <Layout pageTitle="Photography">
     <p>Portraits</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
